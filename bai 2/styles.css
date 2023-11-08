@@ -1,0 +1,34 @@
+table {
+    width: 500px ;
+    height: 230px ;
+    margin: 5px 10px 10px 10px ;
+    background-color: #E0F4FF;
+}
+
+form {
+    border: 1px solid white ;
+    width: 520 px ;
+    height: 243px;
+    background-color: aliceblue;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.blue {
+    color:#39A7FF ;
+    text-align: right;
+}
+
+.orange {
+    color: orange;
+}
+
+h3 {
+    margin-top: 5px;
+    background-color: orange;
+    color: wheat;
+    text-align: center;
+    padding: 3px;
+}
