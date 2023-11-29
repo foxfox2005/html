@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <table style="width: 700px;">
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><input type="text" id="money"></td>
+        <td>
+            <select id="from" style="width: 150px;">
+            <option value="23000">VND</option>
+            <option value="1">USD</option>
+            <option value="3000">KR</option>
+            <option value="4000">NDT</option>
+            <option value="0.8">EU</option>
+        </select>
+        </td>
+        <td>
+            <select id="to" style="width: 150px;">
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
+                <option value="3000">KR</option>
+                <option value="4000">NDT</option>
+                <option value="0.8">EU</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="changeMoney()">trade</button>
+        </td>
+    </tr>
+</table>
+<p id="result"></p>
+</body>
+</html>
